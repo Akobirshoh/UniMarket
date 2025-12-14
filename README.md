@@ -28,3 +28,15 @@ python src/main.py
 6. Откройте документацию:
 • Swagger UI: http://localhost:8000/docs
 • ReDoc: http://localhost:8000/redoc
+
+Docker
+
+Build image:
+```bash
+docker build -t unimarket:latest .
+```
+
+Run container:
+```bash
+docker run --rm -p 8000:8000 unimarket:latest
+```

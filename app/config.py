@@ -11,7 +11,7 @@ class Settings:
 	VERSION: str = os.getenv("VERSION", "0.1.0")
 	DEBUG: bool = os.getenv("DEBUG", "True").lower() in ("1", "true", "yes")
 	API_PREFIX: str = os.getenv("API_PREFIX", "/api/v1")
-	AUTHOR: str = os.getenv("AUTHOR", "Константин")
+	AUTHOR: str = os.getenv("AUTHOR", "Акобиршох")
 
 
 settings = Settings()

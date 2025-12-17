@@ -29,14 +29,3 @@ python src/main.py
 • Swagger UI: http://localhost:8000/docs
 • ReDoc: http://localhost:8000/redoc
 
-```
-Docker
-
-Соберите образ:
-```bash
-docker build -t unimarket:latest .
-```
-Запустите контейнер:
-```bash
-docker run --rm -p 8000:8000 unimarket:latest
-```

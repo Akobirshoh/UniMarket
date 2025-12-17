@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from src.config import settings
+from app.config import settings
 
 app = FastAPI(
 	title=settings.PROJECT_NAME,
@@ -21,7 +21,7 @@ async def health_check():
 async def about():
 	return {
 		"project": settings.PROJECT_NAME,
-		"description": "Студенческий маркетплейс",
+		"description": "Маркетплейс",
 		"author": settings.AUTHOR,
 	}
 

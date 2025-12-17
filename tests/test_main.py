@@ -43,6 +43,6 @@ def test_about():
         assert r.status_code == 200
         data = r.json()
         assert data["project"] == "UniMarket"
-        assert data["author"] == "Константин"
+        assert data["author"] == "Акобиршох"
     finally:
         proc.terminate()

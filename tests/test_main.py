@@ -46,3 +46,4 @@ def test_about():
         assert data["author"] == "Акобиршох"
     finally:
         proc.terminate()
+# ------------------------------
